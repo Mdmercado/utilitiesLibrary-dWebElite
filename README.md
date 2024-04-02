@@ -6,8 +6,8 @@
 
 (Todo paquete que se suba o se consuma)
 
-- Vite
-- Eslint .eslintrc
-- Prettier .prettierrc
-- husky + commitLint (Commits semánticos)
-- Tests
+- Vite [x]
+- Eslint .eslintrc [x]
+- Prettier .prettierrc [x]
+- husky + commitLint (Commits semánticos) [x]
+- Tests []

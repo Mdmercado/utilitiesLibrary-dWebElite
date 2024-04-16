@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# stryker temp files
+.stryker-tmp
+reports/
+coverage/

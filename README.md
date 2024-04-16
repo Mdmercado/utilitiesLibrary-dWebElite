@@ -10,4 +10,7 @@
 - Eslint .eslintrc [x]
 - Prettier .prettierrc [x]
 - husky + commitLint (Commits semánticos) [x]
-- Tests []
+- Tests [x]
+
+// validar passwords con formato regex
+// validar emails con formato regex

@@ -8,5 +8,3 @@ export function isUrl(input: unknown): boolean {
 
   return urlReg.test(input)
 }
-
-// ^(https?:\/\/)?([\da-z\.-]+\.[a-z\.]{2,6}|[\d\.]+)([\/:?=&#]{1}[\da-z\.-]+)*[\/\?]?$

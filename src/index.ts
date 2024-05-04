@@ -1,1 +1,6 @@
-// para la lib, en este index.ts vamos a exportar todos las funciones que queremos que sean accesibles desde fuera de la librería
+export * from './validators/Arrays'
+export * from './validators/Common'
+export * from './validators/Dates'
+export * from './validators/misc'
+export * from './validators/Numbers'
+export * from './validators/String'

@@ -1,4 +1,4 @@
-import { isString } from './isString'
+import { isString } from '../String/isString'
 
 export function isEmail(input: unknown): boolean {
   if (!isString(input)) return false

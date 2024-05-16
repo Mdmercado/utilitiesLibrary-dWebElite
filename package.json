@@ -23,11 +23,14 @@
     "check:types": "tsc --noEmit",
     "test": "vitest run --coverage",
     "test:watch": "vitest --watch",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test:mutation": "stryker run"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",
     "@commitlint/config-conventional": "^19.1.0",
+    "@stryker-mutator/core": "^8.2.6",
+    "@stryker-mutator/vitest-runner": "^8.2.6",
     "@types/node": "^20.12.2",
     "@typescript-eslint/eslint-plugin": "^6.21.0",
     "@vitest/coverage-v8": "^1.5.0",

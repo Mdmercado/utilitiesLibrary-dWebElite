@@ -18,11 +18,18 @@ export default defineConfig({
     }
   },
   plugins: [
-    dts({ outDir: 'dist', include: ['src/'], exclude: ['**/__tests__/**'] }),
+    dts({
+      outDir: 'dist',
+      include: ['src/'],
+      exclude: ['**/__tests__/**']
+    }),
     tsconfigPaths()
   ],
   // @ts-expect-error test types are not defined
   test: {
-    globals: true
+    globals: true,
+    coverage: {
+      exclude: ['src/**/index.ts*', 'commitlint.config.cjs', '.eslintrc.cjs']
+    }
   }
 })

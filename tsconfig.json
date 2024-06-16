@@ -5,6 +5,7 @@
     "module": "ESNext",
     "lib": ["ES2020", "DOM", "DOM.Iterable"],
     "skipLibCheck": true,
+    "declaration": true,
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -12,6 +13,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
+    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./src/*"
@@ -24,5 +26,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "coverage", "reports"]
 }

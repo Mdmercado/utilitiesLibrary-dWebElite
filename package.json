@@ -1,12 +1,13 @@
 {
   "name": "formslibdwe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
+  "main": "./dist/formslibdwe.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/formslibdwe.js",
+      "require": "./dist/formslibdwe.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "publishConfig": {

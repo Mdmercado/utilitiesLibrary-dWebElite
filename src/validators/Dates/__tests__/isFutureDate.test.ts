@@ -4,9 +4,9 @@ import { isFutureDate } from '../isFutureDate'
 
 describe('isFutureDate', () => {
   test('should return true for future dates', () => {
-    expect(isFutureDate(new Date('2024-07-01'))).toBe(true)
-    expect(isFutureDate(new Date('2024-12-31'))).toBe(true)
-    expect(isFutureDate(new Date('2024-06-15'))).toBe(true)
+    expect(isFutureDate(new Date('2032-07-01'))).toBe(true)
+    expect(isFutureDate(new Date('2032-12-31'))).toBe(true)
+    expect(isFutureDate(new Date('2032-06-15'))).toBe(true)
   })
 
   test('should return false for past dates', () => {

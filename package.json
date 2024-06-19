@@ -1,12 +1,13 @@
 {
   "name": "formslibdwe",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "type": "module",
-  "main": "./dist/my-lib.umd.cjs",
+  "main": "./dist/formslibdwe.umd.cjs",
   "exports": {
     ".": {
-      "import": "./dist/my-lib.js",
-      "require": "./dist/my-lib.umd.cjs"
+      "import": "./dist/formslibdwe.js",
+      "require": "./dist/formslibdwe.umd.cjs",
+      "types": "./dist/index.d.ts"
     }
   },
   "publishConfig": {
@@ -24,7 +25,8 @@
     "test": "vitest run --coverage",
     "test:watch": "vitest --watch",
     "prepare": "husky",
-    "test:mutation": "stryker run"
+    "test:mutation": "stryker run",
+    "yalc:publish" : "npm run build && yalc publish"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.2.1",

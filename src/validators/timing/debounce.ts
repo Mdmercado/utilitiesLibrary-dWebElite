@@ -1,4 +1,4 @@
-import type { AnyFunction } from '@/types/helpers'
+import type { AnyFunction } from '@/types'
 
 export function debounce<T extends AnyFunction>(
   fn: T,

@@ -1,4 +1,4 @@
-import { type AnyFunction } from '@/types/helpers'
+import { type AnyFunction } from '@/types'
 
 export function throttle<T extends AnyFunction>(
   fn: T,
